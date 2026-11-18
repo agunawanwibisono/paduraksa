@@ -24,7 +24,7 @@ const WORDS: Record<Difficulty, WordItem[]> = {
     { word: 'SOTO', hint: 'Makanan berkuah kuning yang hangat, khas Lamongan.', fact: 'Soto Lamongan biasanya ditaburi koya yang gurih.', image: foodPhoto('soto-lamongan') },
     { word: 'TAHUCAMPUR', hint: 'Bahan dari kedelai yang ada di Tahu Campur.', fact: 'Tahu campur adalah salah satu kuliner khas Lamongan.', image: foodPhoto('tahu-campur') },
     { word: 'PECELLELE', hint: 'Ikan berkumis yang jadi ikon Lamongan. Enak jadi pecel!', fact: 'Pecel lele adalah makanan khas yang terkenal dari Lamongan.', image: foodPhoto('pecel-lele') },
-    { word: 'GOA', hint: 'Lubang besar di dalam bukit, ada batu yang menggantung.', fact: 'Goa Maharani di Paciran punya stalaktit dan stalagmit.', image: destinationPhoto('goa-maharani') },
+    { word: 'GOAMAHARANI', hint: 'Lubang besar di dalam bukit, ada batu yang menggantung.', fact: 'Goa Maharani di Paciran punya stalaktit dan stalagmit.', image: destinationPhoto('goa-maharani') },
   ],
   sedang: [
     { word: 'WADUKGONDANG', hint: 'Danau buatan untuk menampung air. Di sini ada wisata perahu.', fact: 'Waduk Gondang bisa dinikmati sambil naik perahu.', image: destinationPhoto('waduk-gondang') },

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPinned, UtensilsCrossed, BookOpen, Gamepad2, ArrowRight } from 'lucide-react';
+import { MapPinned, UtensilsCrossed, BookOpen, Gamepad2, ArrowRight, ArrowLeft } from 'lucide-react';
 import { Reveal } from '@/components/ui/Reveal';
 import { destinations } from '@/data/destinations';
 import { foods } from '@/data/foods';
@@ -42,6 +42,12 @@ const CATEGORIES = [
 export default function EksplorasiPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+      <Link
+        href="/"
+        className="mb-6 inline-flex items-center gap-1.5 rounded-full border border-subtle px-4 py-2 text-sm font-medium text-secondary transition-colors hover:border-lamongan-600 hover:text-lamongan-700 dark:hover:text-lamongan-300"
+      >
+        <ArrowLeft className="h-4 w-4" aria-hidden /> Kembali ke Beranda
+      </Link>
       <Reveal>
         <div className="mb-10 text-center">
           <h1 className="font-display text-3xl font-bold sm:text-4xl">Mulai Eksplorasi</h1>
