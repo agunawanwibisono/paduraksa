@@ -22,28 +22,28 @@ interface WordItem {
 const WORDS: Record<Difficulty, WordItem[]> = {
   mudah: [
     { word: 'SOTO', hint: 'Makanan berkuah kuning yang hangat, khas Lamongan.', fact: 'Soto Lamongan biasanya ditaburi koya yang gurih.', image: foodPhoto('soto-lamongan') },
-    { word: 'TAHU', hint: 'Bahan dari kedelai yang ada di Tahu Campur.', fact: 'Tahu campur adalah salah satu kuliner khas Lamongan.', image: foodPhoto('tahu-campur') },
-    { word: 'LELE', hint: 'Ikan berkumis yang jadi ikon Lamongan. Enak jadi pecel!', fact: 'Pecel lele adalah makanan khas yang terkenal dari Lamongan.', image: foodPhoto('pecel-lele') },
+    { word: 'TAHUCAMPUR', hint: 'Bahan dari kedelai yang ada di Tahu Campur.', fact: 'Tahu campur adalah salah satu kuliner khas Lamongan.', image: foodPhoto('tahu-campur') },
+    { word: 'PECELLELE', hint: 'Ikan berkumis yang jadi ikon Lamongan. Enak jadi pecel!', fact: 'Pecel lele adalah makanan khas yang terkenal dari Lamongan.', image: foodPhoto('pecel-lele') },
     { word: 'GOA', hint: 'Lubang besar di dalam bukit, ada batu yang menggantung.', fact: 'Goa Maharani di Paciran punya stalaktit dan stalagmit.', image: destinationPhoto('goa-maharani') },
   ],
   sedang: [
-    { word: 'WADUK', hint: 'Danau buatan untuk menampung air. Di sini ada wisata perahu.', fact: 'Waduk Gondang bisa dinikmati sambil naik perahu.', image: destinationPhoto('waduk-gondang') },
-    { word: 'BORAN', hint: 'Nasi yang dijual dengan cara dibawa keliling, namanya nasi ...an.', fact: 'Nasi boranan adalah kuliner khas Lamongan.', image: foodPhoto('nasi-boranan') },
-    { word: 'MAKAM', hint: 'Tempat peristirahatan terakhir. Di Paciran ada makam Sunan Drajat.', fact: 'Makam Sunan Drajat sering dikunjungi peziarah dan wisatawan.', image: destinationPhoto('makam-sunan-drajat') },
-    { word: 'WINGKO', hint: 'Kue manis dari kelapa, enak untuk oleh-oleh.', fact: 'Wingko adalah jajanan khas yang cocok dibawa pulang.', image: foodPhoto('wingko') },
+    { word: 'WADUKGONDANG', hint: 'Danau buatan untuk menampung air. Di sini ada wisata perahu.', fact: 'Waduk Gondang bisa dinikmati sambil naik perahu.', image: destinationPhoto('waduk-gondang') },
+    { word: 'NASIBORAN', hint: 'Nasi yang dijual dengan cara dibawa keliling, namanya nasi ...an.', fact: 'Nasi boranan adalah kuliner khas Lamongan.', image: foodPhoto('nasi-boranan') },
+    { word: 'MAKAMSUNANDRAJAD', hint: 'Tempat peristirahatan terakhir. Di Paciran ada makam Sunan Drajat.', fact: 'Makam Sunan Drajat sering dikunjungi peziarah dan wisatawan.', image: destinationPhoto('makam-sunan-drajat') },
+    { word: 'WINGKOBABAT', hint: 'Kue manis dari kelapa, enak untuk oleh-oleh.', fact: 'Wingko adalah jajanan khas yang cocok dibawa pulang.', image: foodPhoto('wingko') },
   ],
   sulit: [
     { word: 'PANTAI', hint: 'Tepi laut yang berpasir, tempat bermain air.', fact: 'Pantai Kutang ada di pesisir Lamongan.', image: destinationPhoto('pantai-kutang') },
-    { word: 'WISATA', hint: 'Kata pertama di nama WBL. Artinya jalan-jalan untuk bersenang-senang.', fact: 'Wisata Bahari Lamongan (WBL) ada di pesisir Paciran.', image: destinationPhoto('wisata-bahari-lamongan') },
+    { word: 'WISATABAHARILAMONGAN', hint: 'Kata pertama di nama WBL. Artinya jalan-jalan untuk bersenang-senang.', fact: 'Wisata Bahari Lamongan (WBL) ada di pesisir Paciran.', image: destinationPhoto('wisata-bahari-lamongan') },
     { word: 'PERAHU', hint: 'Kendaraan air yang dipakai di foto ini.', fact: 'Perahu dipakai untuk berkeliling di waduk dan juga untuk mencari ikan.', image: destinationPhoto('waduk-gondang') },
-    { word: 'MONUMEN', hint: 'Bangunan peringatan untuk mengenang peristiwa atau tokoh.', fact: 'Monumen Van Der Wijck mengingatkan pada kisah kapal Van Der Wijck.', image: destinationPhoto('monumen-van-der-wijck') },
+    { word: 'MONUMENVANDERWIJK', hint: 'Bangunan peringatan untuk mengenang peristiwa atau tokoh.', fact: 'Monumen Van Der Wijck mengingatkan pada kisah kapal Van Der Wijck.', image: destinationPhoto('monumen-van-der-wijck') },
   ],
 };
 
 const DIFFICULTY_LABEL: Record<Difficulty, string> = {
-  mudah: 'Mudah (4 huruf)',
-  sedang: 'Sedang (5–6 huruf)',
-  sulit: 'Sulit (6–7 huruf)',
+  mudah: 'Mudah',
+  sedang: 'Sedang',
+  sulit: 'Sulit',
 };
 
 interface Tile {
