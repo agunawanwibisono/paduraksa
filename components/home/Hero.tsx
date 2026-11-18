@@ -50,7 +50,7 @@ export function Hero() {
 
         <motion.p variants={item} className="mx-auto mt-5 max-w-2xl text-base text-secondary sm:text-lg">
           Belajar sambil bermain bersama Si Lele: kenali wisata, kuliner khas, dan budaya Lamongan secara
-          interaktif — kumpulkan XP, buka badge, dan uji pengetahuanmu lewat game edukasi.
+          interaktif — uji pengetahuanmu lewat game edukasi.
         </motion.p>
 
         <motion.p variants={item} className="mx-auto mt-3 max-w-2xl text-xs font-medium text-lamongan-700 dark:text-lamongan-200 sm:text-sm">

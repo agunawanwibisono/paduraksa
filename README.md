@@ -4,7 +4,7 @@ SILELE: Sarana Inovasi Literasi, Eksplorasi, dan Lingkungan Edukasi Bahagia.
 
 ## Status
 Tahap 1: arsitektur, setup project, layout/navigasi, dan Home page.
-Menyusul: Dashboard, Wisata, Makanan, Budaya, Game Kelompokkan Warna, Game Matching, integrasi Supabase penuh.
+Menyusul: Wisata, Makanan, Budaya, Game Kelompokkan Warna, Game Matching, integrasi Supabase penuh.
 
 ## Instalasi
 

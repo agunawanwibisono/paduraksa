@@ -32,7 +32,8 @@ export async function middleware(request: NextRequest) {
       },
     });
     const { data } = await supabase.auth.getUser();
-    loggedIn = Boolean(data.user);
+    // Wajib ada penanda sesi-browser (hilang saat browser ditutup) agar login diminta lagi.
+    loggedIn = Boolean(data.user) && request.cookies.get('silele_session')?.value === '1';
   }
 
   if (!loggedIn && !isLogin) {

@@ -34,7 +34,7 @@ const CATEGORIES = [
     title: 'Game Edukasi',
     description: 'Uji ketangkasan dan ingatanmu lewat game bertema Lamongan.',
     icon: Gamepad2,
-    count: '5 game',
+    count: '6 game',
     color: 'from-lamongan-500 to-terracotta-500',
   },
 ];

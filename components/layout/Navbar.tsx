@@ -12,7 +12,6 @@ import { cn } from '@/lib/utils';
 
 const NAV_LINKS = [
   { href: '/', label: 'Beranda' },
-  { href: '/dashboard', label: 'Dashboard' },
   { href: '/eksplorasi', label: 'Eksplorasi' },
   { href: '/wisata', label: 'Wisata' },
   { href: '/makanan', label: 'Makanan' },
@@ -28,6 +27,7 @@ export function Navbar() {
     try {
       await createSupabaseBrowserClient().auth.signOut();
     } finally {
+      document.cookie = 'silele_session=; path=/; max-age=0';
       router.push('/login');
       router.refresh();
     }

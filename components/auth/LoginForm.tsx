@@ -20,7 +20,7 @@ const bubbles = [
 
 const perks = [
   { icon: BookOpen, text: 'Belajar lewat cerita dan budaya Lamongan' },
-  { icon: Gamepad2, text: 'Main game edukasi, kumpulkan XP dan badge' },
+  { icon: Gamepad2, text: 'Main game edukasi yang seru dan bermanfaat' },
   { icon: MapPinned, text: 'Jelajahi wisata dan kuliner khas' },
 ];
 
@@ -52,6 +52,7 @@ export function LoginForm() {
       setError(err.message === 'Invalid login credentials' ? 'Email atau password salah.' : 'Gagal masuk. Coba lagi sebentar.');
       return;
     }
+    document.cookie = 'silele_session=1; path=/; SameSite=Lax';
     router.push('/');
     router.refresh();
   }

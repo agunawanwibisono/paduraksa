@@ -3,12 +3,11 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { Home, LayoutDashboard, MapPinned, Gamepad2, UtensilsCrossed, Landmark } from 'lucide-react';
+import { Home, MapPinned, Gamepad2, UtensilsCrossed, Landmark } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const MOBILE_LINKS = [
   { href: '/', label: 'Beranda', icon: Home },
-  { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/wisata', label: 'Wisata', icon: MapPinned },
   { href: '/makanan', label: 'Makanan', icon: UtensilsCrossed },
   { href: '/budaya', label: 'Budaya', icon: Landmark },
